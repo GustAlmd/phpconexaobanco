@@ -1,0 +1,19 @@
+{
+    "name": "admin/chamadasonline",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo"
+        }
+    ],
+    "require" : {
+    },
+    "require-dev": {
+      "heroku/heroku-buildpack-php": "*"
+    }
+}
